@@ -124,7 +124,11 @@ ul {
 }
 
 .main-box {
-  background-image: radial-gradient(var(--background-grey), var(--shadow-grey)),
+  background-image: linear-gradient(
+      90deg,
+      var(--shadow-grey),
+      var(--shadow-grey)
+    ),
     url(../images/img.jpg);
   max-width: 100%;
   background-repeat: no-repeat;
